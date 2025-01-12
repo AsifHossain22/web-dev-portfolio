@@ -16,6 +16,22 @@ body {
 .dark-2 {
   color: #474747;
 }
+.btn-primary {
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* 
+* HeaderStyles 
+*/
+.header {
+  background-image: url(../images/), url(../images/header_bg.png);
+}
 
 /* 
 * NavStyles 
@@ -24,6 +40,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 10px 60px;
 }
 .nav-title {
   font-weight: 800;
@@ -31,6 +48,7 @@ nav {
 }
 nav ul {
   display: flex;
+  align-items: center;
 }
 nav ul li {
   list-style: none;
@@ -39,4 +57,36 @@ nav ul li {
 nav li a {
   text-decoration: none;
   font-size: 20px;
+}
+
+/* 
+* BannerStyle 
+*/
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 60px;
+}
+.banner-content {
+  align-self: center;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+  margin: 0;
+}
+.banner-description {
+  font-size: 18px;
+  margin: 0;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin: 0;
+}
+.banner-profile-pic {
+  width: 580px;
+}
+.button-container {
+  margin-top: 20px;
 }
