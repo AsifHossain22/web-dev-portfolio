@@ -213,3 +213,9 @@ textarea {
   margin-bottom: 25px;
   border: none;
 }
+.footer-column .section-title {
+  margin-bottom: 15px;
+}
+.footer-column p {
+  margin: 20px 0;
+}
